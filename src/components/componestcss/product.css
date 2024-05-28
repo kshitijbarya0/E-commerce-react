@@ -1,0 +1,38 @@
+.showproductslist{
+    margin-bottom: 50px;
+   
+}
+
+.card-img{
+    padding: 1rem !important;
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+}
+.product-container{
+    margin-top: -385px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.showproductslist{
+    margin-top: -390px;
+   
+}
+@media (max-width: 1026px) {
+    .showproductslist {
+      display: none;
+    }
+  }
+
+@media (max-width: 630px) {
+    .card-img{
+        padding: 1rem !important;
+        height: 300px;
+        width: auto;
+    }
+    .product-container{
+        margin-top: -385px;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+  }

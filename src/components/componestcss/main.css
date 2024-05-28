@@ -1,0 +1,28 @@
+.landingpage-img{
+    padding: 20px;
+}
+.slider-img{
+    padding-top: 10px;
+    margin-top: 40px;
+    height: 45rem;
+    width: 100%;
+    object-fit: contain;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 98%);
+}
+.slider-img img{
+    height: 42rem;
+    width: auto;
+}
+@media (max-width: 1190px) {
+    .landingpage-img {
+        margin-top: -30px;
+    }
+  }
+
+@media (max-width: 1026px) {
+
+    .landingpage-img {
+        margin-top: -265px;
+    }
+  }
+
